@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pinyougou-base64/pinyougou-base64.iml" filepath="$PROJECT_DIR$/pinyougou-base64/pinyougou-base64.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyougou-hashmap/pinyougou-hashmap.iml" filepath="$PROJECT_DIR$/pinyougou-hashmap/pinyougou-hashmap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyougou-parent.iml" filepath="$PROJECT_DIR$/pinyougou-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyougou-pojo/pinyougou-pojo.iml" filepath="$PROJECT_DIR$/pinyougou-pojo/pinyougou-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyougou-redis/pinyougou-redis.iml" filepath="$PROJECT_DIR$/pinyougou-redis/pinyougou-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyougou-thread/pinyougou-thread.iml" filepath="$PROJECT_DIR$/pinyougou-thread/pinyougou-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyougou-zkcustomerutils/pinyougou-zkcustomerutils.iml" filepath="$PROJECT_DIR$/pinyougou-zkcustomerutils/pinyougou-zkcustomerutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyougou-zkutils/pinyougou-zkutils.iml" filepath="$PROJECT_DIR$/pinyougou-zkutils/pinyougou-zkutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyougou-zookeeper/pinyougou-zookeeper.iml" filepath="$PROJECT_DIR$/pinyougou-zookeeper/pinyougou-zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyougouredis-cluster/pinyougouredis-cluster.iml" filepath="$PROJECT_DIR$/pinyougouredis-cluster/pinyougouredis-cluster.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou-base64" />
+        <module name="pinyougou-hashmap" />
+        <module name="pinyougou-pojo" />
+        <module name="pinyougou-redis" />
+        <module name="pinyougou-thread" />
+        <module name="pinyougou-zkcustomerutils" />
+        <module name="pinyougou-zkutils" />
+        <module name="pinyougou-zookeeper" />
+        <module name="pinyougouredis-cluster" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pinyougou-base64" target="1.8" />
+      <module name="pinyougou-hashmap" target="1.8" />
+      <module name="pinyougou-parent" target="1.8" />
+      <module name="pinyougou-pojo" target="1.8" />
+      <module name="pinyougou-redis" target="1.8" />
+      <module name="pinyougou-thread" target="1.8" />
+      <module name="pinyougou-zkcustomerutils" target="1.8" />
+      <module name="pinyougou-zkutils" target="1.8" />
+      <module name="pinyougou-zookeeper" target="1.8" />
+      <module name="pinyougouredis-cluster" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+####################Zookeeper的配置##########################
+spring:
+  application:
+    name: zookeeperApplication
+  cloud:
+    zookeeper:
+      connect-string: 192.168.6.134:2181
+      discovery:
+        enabled: true
+#####################基本配置信息###########################
+server:
+  port: 8081
+endpoints:
+  restart:
+    enabled: true
+logging:
+  level:
+    org.apache.zookeeper.ClientCnxn: WARN

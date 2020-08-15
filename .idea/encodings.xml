@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou-base64" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou-hashmap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou-thread" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou-zkcustomerutils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou-zkutils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouredis-cluster" charset="UTF-8" />
+  </component>
+</project>
