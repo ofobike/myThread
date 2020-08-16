@@ -4,6 +4,10 @@ public class TaxCalautor {
     private final double salary;
     private final double donus;
 
+    /**
+     * 引入接口数据
+     */
+    private CountTaxStrategy countTaxStrategy;
     public TaxCalautor(double salary, double donus) {
         this.salary = salary;
         this.donus = donus;
@@ -14,7 +18,10 @@ public class TaxCalautor {
     }
 
     private double calcTax() {
-        return 0.0d;
+        /**
+         * 调用接口里的方法
+         */
+        return countTaxStrategy.calculate(salary,donus);
     }
 
 
@@ -24,5 +31,13 @@ public class TaxCalautor {
 
     public double getDonus() {
         return donus;
+    }
+
+    public CountTaxStrategy getCountTaxStrategy() {
+        return countTaxStrategy;
+    }
+
+    public void setCountTaxStrategy(CountTaxStrategy countTaxStrategy) {
+        this.countTaxStrategy = countTaxStrategy;
     }
 }
