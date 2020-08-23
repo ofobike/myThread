@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-build-tools" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-provider" />
         <module name="pinyougou-base64" />
         <module name="pinyougou-hashmap" />
         <module name="pinyougou-pojo" />
@@ -18,6 +21,113 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dubbo" target="1.8" />
+      <module name="dubbo-auth" target="1.8" />
+      <module name="dubbo-bom" target="1.8" />
+      <module name="dubbo-build-tools" target="1.8" />
+      <module name="dubbo-cluster" target="1.8" />
+      <module name="dubbo-common" target="1.8" />
+      <module name="dubbo-compatible" target="1.8" />
+      <module name="dubbo-config" target="1.8" />
+      <module name="dubbo-config-api" target="1.8" />
+      <module name="dubbo-config-spring" target="1.8" />
+      <module name="dubbo-configcenter" target="1.8" />
+      <module name="dubbo-configcenter-apollo" target="1.8" />
+      <module name="dubbo-configcenter-consul" target="1.8" />
+      <module name="dubbo-configcenter-etcd" target="1.8" />
+      <module name="dubbo-configcenter-nacos" target="1.8" />
+      <module name="dubbo-configcenter-zookeeper" target="1.8" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-container" target="1.8" />
+      <module name="dubbo-container-api" target="1.8" />
+      <module name="dubbo-container-log4j" target="1.8" />
+      <module name="dubbo-container-logback" target="1.8" />
+      <module name="dubbo-container-spring" target="1.8" />
+      <module name="dubbo-demo" target="1.8" />
+      <module name="dubbo-demo-annotation" target="1.8" />
+      <module name="dubbo-demo-annotation-consumer" target="1.8" />
+      <module name="dubbo-demo-annotation-provider" target="1.8" />
+      <module name="dubbo-demo-api" target="1.8" />
+      <module name="dubbo-demo-api-consumer" target="1.8" />
+      <module name="dubbo-demo-api-provider" target="1.8" />
+      <module name="dubbo-demo-interface" target="1.8" />
+      <module name="dubbo-demo-xml" target="1.8" />
+      <module name="dubbo-demo-xml-consumer" target="1.8" />
+      <module name="dubbo-demo-xml-provider" target="1.8" />
+      <module name="dubbo-dependencies" target="1.8" />
+      <module name="dubbo-dependencies-bom" target="1.8" />
+      <module name="dubbo-dependencies-zookeeper" target="1.8" />
+      <module name="dubbo-distribution" target="1.8" />
+      <module name="dubbo-filter" target="1.8" />
+      <module name="dubbo-filter-cache" target="1.8" />
+      <module name="dubbo-filter-validation" target="1.8" />
+      <module name="dubbo-log" target="1.8" />
+      <module name="dubbo-metadata" target="1.8" />
+      <module name="dubbo-metadata-api" target="1.8" />
+      <module name="dubbo-metadata-definition-protobuf" target="1.8" />
+      <module name="dubbo-metadata-processor" target="1.8" />
+      <module name="dubbo-metadata-report-consul" target="1.8" />
+      <module name="dubbo-metadata-report-etcd" target="1.8" />
+      <module name="dubbo-metadata-report-nacos" target="1.8" />
+      <module name="dubbo-metadata-report-redis" target="1.8" />
+      <module name="dubbo-metadata-report-zookeeper" target="1.8" />
+      <module name="dubbo-monitor" target="1.8" />
+      <module name="dubbo-monitor-api" target="1.8" />
+      <module name="dubbo-monitor-default" target="1.8" />
+      <module name="dubbo-parent" target="1.8" />
+      <module name="dubbo-plugin" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="dubbo-qos" target="1.8" />
+      <module name="dubbo-registry" target="1.8" />
+      <module name="dubbo-registry-api" target="1.8" />
+      <module name="dubbo-registry-consul" target="1.8" />
+      <module name="dubbo-registry-default" target="1.8" />
+      <module name="dubbo-registry-etcd3" target="1.8" />
+      <module name="dubbo-registry-eureka" target="1.8" />
+      <module name="dubbo-registry-multicast" target="1.8" />
+      <module name="dubbo-registry-multiple" target="1.8" />
+      <module name="dubbo-registry-nacos" target="1.8" />
+      <module name="dubbo-registry-redis" target="1.8" />
+      <module name="dubbo-registry-sofa" target="1.8" />
+      <module name="dubbo-registry-zookeeper" target="1.8" />
+      <module name="dubbo-remoting" target="1.8" />
+      <module name="dubbo-remoting-api" target="1.8" />
+      <module name="dubbo-remoting-etcd3" target="1.8" />
+      <module name="dubbo-remoting-grizzly" target="1.8" />
+      <module name="dubbo-remoting-http" target="1.8" />
+      <module name="dubbo-remoting-mina" target="1.8" />
+      <module name="dubbo-remoting-netty" target="1.8" />
+      <module name="dubbo-remoting-netty4" target="1.8" />
+      <module name="dubbo-remoting-p2p" target="1.8" />
+      <module name="dubbo-remoting-zookeeper" target="1.8" />
+      <module name="dubbo-rpc" target="1.8" />
+      <module name="dubbo-rpc-api" target="1.8" />
+      <module name="dubbo-rpc-dubbo" target="1.8" />
+      <module name="dubbo-rpc-grpc" target="1.8" />
+      <module name="dubbo-rpc-hessian" target="1.8" />
+      <module name="dubbo-rpc-http" target="1.8" />
+      <module name="dubbo-rpc-injvm" target="1.8" />
+      <module name="dubbo-rpc-memcached" target="1.8" />
+      <module name="dubbo-rpc-native-thrift" target="1.8" />
+      <module name="dubbo-rpc-redis" target="1.8" />
+      <module name="dubbo-rpc-rest" target="1.8" />
+      <module name="dubbo-rpc-rmi" target="1.8" />
+      <module name="dubbo-rpc-thrift" target="1.8" />
+      <module name="dubbo-rpc-webservice" target="1.8" />
+      <module name="dubbo-rpc-xml" target="1.8" />
+      <module name="dubbo-serialization" target="1.8" />
+      <module name="dubbo-serialization-api" target="1.8" />
+      <module name="dubbo-serialization-avro" target="1.8" />
+      <module name="dubbo-serialization-fastjson" target="1.8" />
+      <module name="dubbo-serialization-fst" target="1.8" />
+      <module name="dubbo-serialization-gson" target="1.8" />
+      <module name="dubbo-serialization-hessian2" target="1.8" />
+      <module name="dubbo-serialization-jdk" target="1.8" />
+      <module name="dubbo-serialization-kryo" target="1.8" />
+      <module name="dubbo-serialization-native-hession" target="1.8" />
+      <module name="dubbo-serialization-protobuf" target="1.8" />
+      <module name="dubbo-serialization-protostuff" target="1.8" />
+      <module name="dubbo-serialization-test" target="1.8" />
       <module name="pinyougou-base64" target="1.8" />
       <module name="pinyougou-hashmap" target="1.8" />
       <module name="pinyougou-parent" target="1.8" />
