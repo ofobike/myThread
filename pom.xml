@@ -22,6 +22,10 @@
         <module>pinyougou-redis</module>
         <module>pinyougouredis-cluster</module>
         <module>pinyougou-thread</module>
+        <module>dubbo-provider</module>
+        <module>dubbo-consumer</module>
+        <module>dubbo-provider</module>
+        <module>dubbo-consumer</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
